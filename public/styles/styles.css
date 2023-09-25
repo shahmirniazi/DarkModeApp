@@ -1,0 +1,61 @@
+* {
+    font-family: 'Martian Mono', monospace;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* CSS for transitions */
+.container,
+.darkmode-app,
+button,
+#moon-icon,
+#sun-icon,
+h1 {
+    transition: all 0.5s ease; /* Adjust the duration and easing as needed */
+}
+
+/* Rest of your existing CSS */
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #7EAA92;
+    margin: 0;
+
+
+}
+
+.darkmode-app {
+    background-color: #C8E4B2;
+    border-radius: 30px;
+    width: 50%;
+    max-width: 520px;
+    text-align: center;
+
+}
+
+#sun-icon, #moon-icon {
+    width: 50px;
+    height: 50px;
+    background: none;
+}
+
+button {
+    background: lightslategray;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    margin: 30px;
+}
+
+#sun-icon {
+    display: none;
+    padding-left: 40px;
+
+
+}
+
